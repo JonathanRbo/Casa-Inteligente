@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
 
-@media screen and (min-width: 769px) {
+@media (min-width: 769px) {
 
     body {
         background-color: #00233f;
@@ -16,7 +16,7 @@
     }
 
     #img {
-        size:80px;
+        width: 80px;
         display: block;
         margin: 0px auto;
     }
@@ -112,7 +112,7 @@
     /*Para computador acima*/
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
     /*celular*/
     body {
